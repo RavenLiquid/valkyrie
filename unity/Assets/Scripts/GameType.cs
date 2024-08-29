@@ -51,17 +51,17 @@ public class NoGameType : GameType
 
     public override Font GetFont()
     {
-        return Resources.GetBuiltinResource<Font>("Arial.ttf");
+        return Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
     }
 
     public override Font GetHeaderFont()
     {
-        return Resources.GetBuiltinResource<Font>("Arial.ttf");
+        return Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
     }
 
     public override Font GetSymbolFont()
     {
-        return Resources.GetBuiltinResource<Font>("Arial.ttf");
+        return Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
     }
 
     public override int MaxHeroes()
